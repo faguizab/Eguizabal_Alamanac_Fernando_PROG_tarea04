@@ -61,7 +61,6 @@ public class Ejercicio1 {
         int numA = 0, numE = 0, numI = 0, numO = 0, numU = 0;
         boolean esPanvocalica = false;
         
-        System.out.println(palabra);
         for(int i = 0; i < longitud; i++){
             switch (palabra.charAt(i)){
                 case 'a':   //Contamos una a
