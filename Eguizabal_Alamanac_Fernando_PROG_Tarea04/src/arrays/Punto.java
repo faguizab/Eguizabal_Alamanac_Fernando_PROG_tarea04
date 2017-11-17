@@ -23,4 +23,10 @@ public class Punto {
     public double getY(){
         return this.y;
     }
+    
+    //Creo el método toString para devolver la representación del punto
+    public String toString (){
+        String representacion = "("+this.x+","+this.y+")";
+        return representacion;
+    }
 }
