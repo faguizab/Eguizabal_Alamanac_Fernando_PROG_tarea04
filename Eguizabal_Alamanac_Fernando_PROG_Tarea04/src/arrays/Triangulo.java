@@ -29,4 +29,11 @@ public class Triangulo {
     public Punto getPunto3 (){
         return this.punto3;
     }
+    
+    //Creo el método toString que devolverá una cadena con la representación
+    // del triángulo en formato A(x,y)B(x,y)C(x,y)
+    public String toString (){
+        String cadena = "A"+this.punto1.toString()+"B"+this.punto2.toString()+"C"+this.punto3.toString();
+        return cadena;
+    }
 }
