@@ -36,4 +36,16 @@ public class Triangulo {
         String cadena = "A"+this.punto1.toString()+"B"+this.punto2.toString()+"C"+this.punto3.toString();
         return cadena;
     }
+    
+    //Creo el método perímetro del triángulo
+    public double perimetro (){
+        //Dadas las operaciones creo la variable y devolveré un double
+        double perimetro = 0;
+        
+        perimetro = this.punto1.distancia(this.punto2);
+        perimetro += this.punto1.distancia(this.punto3);
+        perimetro += this.punto2.distancia(this.punto3);
+        
+        return perimetro;
+    }
 }
