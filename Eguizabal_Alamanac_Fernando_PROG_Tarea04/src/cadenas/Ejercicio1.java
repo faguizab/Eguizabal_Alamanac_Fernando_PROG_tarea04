@@ -7,7 +7,10 @@ import utilidades.Entrada;
  * @author Fernando Eguizabal Alamañac
  */
 public class Ejercicio1 {
-    
+    /**
+     * Esta clase soluciona el Ejercicio 1 de la Tarea online 4 de Programación
+     * @param args 
+     */
     public static void main(String[] args) {
         //1- Realiza un programa que lea una palabra por teclado 
         String palabra = new String();

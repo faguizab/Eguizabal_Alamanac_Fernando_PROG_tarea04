@@ -18,4 +18,15 @@ public class Triangulo {
         this.punto2 = new Punto(punto2.getX(),punto2.getY());
         this.punto3 = new Punto(punto3.getX(),punto3.getY());
     }
+    
+    //Creo los métodos GET para cada uno de los triángulos
+    public Punto getPunto1 (){
+        return this.punto1;
+    }
+    public Punto getPunto2 (){
+        return this.punto2;
+    }
+    public Punto getPunto3 (){
+        return this.punto3;
+    }
 }
