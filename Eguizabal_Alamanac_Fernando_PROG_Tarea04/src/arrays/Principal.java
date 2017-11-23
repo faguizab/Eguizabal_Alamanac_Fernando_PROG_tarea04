@@ -54,5 +54,18 @@ public class Principal {
             
             arrayTriangulos[i] = new Triangulo(punto1, punto2, punto3);
         }
+        
+        //Calculamos el perímetro medio de todos los triángulos
+        double sumaPerimetros = 0, mediaPerimetros = 0;
+                
+        //recorremos todo el array de triángulos
+        for (int i = 0; i < numTriangulos; i++){
+            //sumamos los perímetros
+            sumaPerimetros += arrayTriangulos[i].perimetro();
+        }
+        mediaPerimetros = sumaPerimetros / numTriangulos;
+        
+         //Mostramos al usuario el perímetro medio de los triangulos
+        System.out.println("El perímetro medio de los triángulos generados es: "+mediaPerimetros);
     }
 }
