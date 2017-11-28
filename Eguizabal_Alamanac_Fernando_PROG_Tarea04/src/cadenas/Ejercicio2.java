@@ -22,7 +22,7 @@ public class Ejercicio2 {
         cadena = cadena.toUpperCase();
         
         //Comprobamos que es correcta la matricula mediante una expresión regular
-        Pattern patron = Pattern.compile("([0-9]{4})([[A-Z]&&[^AEIOU]]{3})");
+        Pattern patron = Pattern.compile("([0-9]{4})([[A-Z]&&[^AEIOUÑ]]{3})");
         Matcher comprobacion = patron.matcher(cadena);
         
         if(comprobacion.matches()){
