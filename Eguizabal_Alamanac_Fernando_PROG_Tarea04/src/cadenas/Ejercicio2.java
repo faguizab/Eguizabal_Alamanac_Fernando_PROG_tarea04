@@ -16,7 +16,7 @@ public class Ejercicio2 {
             System.out.print("Por favor, introduce la matrícula a comprobar: ");
             cadena = Entrada.cadena();
             cadena = cadena.trim();
-        }while(cadena.length()<=0 || cadena.length()>7);
+        }while(cadena.length()!=7);
         
         //Ponemos las letras en mayusculas
         cadena = cadena.toUpperCase();
